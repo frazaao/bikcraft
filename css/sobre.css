@@ -1,89 +1,87 @@
 .sobre-bg {
-	background:url(../img/bg-sobre.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100vw;
-	height: 160px;	
-	align-items: center;
-	display: flex;
-	justify-content: center;
-	text-align: center;	
+  background: url(../img/bg-sobre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.sobre-bg h1{
-	font: bold 24px arial;
-	text-transform: uppercase;
-	color: white;
+.sobre-bg h1 {
+  font: bold 24px arial;
+  text-transform: uppercase;
+  color: white;
 }
 
-.sobre-bg hr{
-	width: 60px;
-	border: 2px solid white;
-	color: white;
+.sobre-bg hr {
+  width: 60px;
+  border: 2px solid white;
+  color: white;
 }
 
-.sobre-bg p{
-	color: white;
-	font: 14px georgia;
+.sobre-bg p {
+  color: white;
+  font: 14px georgia;
 }
 
-#historia{
-	width: 960px;
-	margin: 60px auto;
-	grid-template-columns: 1fr 2fr;
-	display: grid;		
-	gap: 60px;
-	grid-template:
-	 "missao valores"
-	 "equipe equipe";
+#historia {
+  width: 960px;
+  margin: 60px auto;
+  display: grid;
+  gap: 60px;
+  grid-template:
+    "missao valores"
+    "equipe equipe"/1fr 1fr;
 }
 
-.missão{
-	grid-area: missao;
-	display: flex;
+.missão {
+  grid-area: missao;
 }
 
-.missao h1{
-	font: bold 24px arial;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+.missao h1 {
+  font: bold 24px arial;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
-.missao hr{
-	width: 60px;
-	margin: 10px 0;
-	border:2px solid black;
+.missao hr {
+  width: 60px;
+  margin: 10px 0;
+  border: 2px solid black;
 }
 
-.missao p{
-	margin: 15px 0;
-	text-align: left;
-	font: 18px arial;
+.missao p {
+  margin: 15px 0;
+  text-align: left;
+  font: 18px arial;
 }
 
-.valores{
-	grid-area: valores;
+.valores {
+  grid-area: valores;
 }
 
-.valores h1{
-	font: bold 24px arial;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+.valores h1 {
+  font: bold 24px arial;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
-.valores hr{
-	width: 60px;
-	margin: 10px 0;
-	border:2px solid black;
+.valores hr {
+  width: 60px;
+  margin: 10px 0;
+  border: 2px solid black;
 }
 
-.valores li{
-	margin: 15px 0;
-	text-align: left;
-	font: 18px arial;
-	line-height: 20px;
+.valores li {
+  margin: 15px 0;
+  text-align: left;
+  font: 18px arial;
+  line-height: 20px;
 }
 
-.equipe{
-	grid-area:equipe;
+.equipe {
+  grid-area: equipe;
 }
