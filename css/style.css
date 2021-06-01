@@ -25,6 +25,10 @@ header nav ul a {
   transition: all 300ms ease;
 }
 
+.ativo {
+  color: white;
+}
+
 header nav ul a:hover {
   color: white;
 }

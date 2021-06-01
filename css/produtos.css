@@ -43,6 +43,7 @@
 .card-passeio {
   grid-area: card;
   background: url(../img/produtos/bikcraft-passeio-1.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,6 +74,7 @@
 .card-esporte {
   grid-area: card;
   background: url(../img/produtos/bikcraft-esporte-1.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,6 +105,7 @@
 .card-retro {
   grid-area: card;
   background: url(../img/produtos/bikcraft-retro-1.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,6 +131,10 @@
   align-items: center;
   text-align: center;
   grid-area: icone;
+}
+
+.icone img {
+  margin: 25px 0 0;
 }
 
 .informacao {
@@ -231,6 +238,7 @@
 }
 
 .form {
+  margin: 50px 0;
   text-align: left;
   grid-area: formulario;
   width: 400px;
@@ -267,4 +275,38 @@ textarea {
 
 .dados {
   grid-area: dados;
+  text-align: left;
+  padding: 30px 70px;
+  box-sizing: border-box;
+}
+
+.dados h1 {
+  margin: 20px 0;
+  font: bold 24px arial;
+  color: #fec63e;
+  text-transform: uppercase;
+}
+
+.dados span {
+  font: 18px georgia;
+  line-height: 20px;
+  display: block;
+}
+
+.dados p {
+  margin-bottom: 15px;
+  font: 18px georgia;
+  line-height: 20px;
+  display: block;
+}
+
+.dados li {
+  background: #000;
+  line-height: 30px;
+  font: 18px arial;
+  padding: 5px;
+}
+
+.dados li:nth-child(odd) {
+  background: #191919;
 }

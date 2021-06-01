@@ -15,7 +15,7 @@
       <nav>
         <ul>
           <a href="sobre.html">SOBRE</a>
-          <a href="produtos.html">PRODUTOS</a>
+          <a href="produtos.html" class="ativo">PRODUTOS</a>
           <a href="#">PORTFÓLIO</a>
           <a href="#">CONTATO</a>
         </ul>
@@ -119,26 +119,38 @@
 			<hr />
 		  </div>
 		  <div class="formulario">
-			<form action="" class="form">
-				<label for="">Nome</label>
-				<input type="text">
+			<form action="enviar" class="form">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome">
 
-				<label for="">E-mail</label>
-				<input type="text">
+				<label for="email">E-mail</label>
+				<input type="text" id="email">
 
-				<label for="">Telefone</label>
-				<input type="text">
+				<label for="phone">Telefone</label>
+				<input type="text" id="phone">
 
-				<label for="">Mensagem</label>
-				<textarea name="" id="" cols="30" rows="5"></textarea>
+				<label for="mensagem">Mensagem</label>
+				<textarea name="" id="mensagem" cols="30" rows="5"></textarea>
 
-				<button>Enviar</button>
+				<button type="submit">Enviar</button>
 			</form>
 
 			<div class="dados">
+        <h1>Dados</h1>
+        <span>+55 34 99999-9999</span>
+        <span>orcamento@bikcraft.com</span>
 
+        <h1>Monte sua bikcraft</h1>
+        <p>Escolha as especificações</p>
+        <ul>
+          <li>-Cores</li>
+          <li>-Estilo</li>
+          <li>-Acabamento</li>
+          <li>-Medidas</li>
+          <li>-Outros</li>
+        </ul>
 			</div>
-		  </div>
+    </div>
 		
 	</section>
 
