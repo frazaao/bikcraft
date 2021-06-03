@@ -11,7 +11,7 @@
 }
 
 .produtos-bg h1 {
-  font: bold 24px arial;
+  font: bold 48px arial;
   text-transform: uppercase;
   color: white;
 }
@@ -23,6 +23,7 @@
 }
 
 .produtos-bg p {
+  margin-top: 30px;
   color: white;
   font: 14px georgia;
 }
