@@ -1,0 +1,170 @@
+.contato-bg {
+  background: url(../img/bg-contato.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contato-bg h1 {
+  font: bold 48px arial;
+  text-transform: uppercase;
+  color: white;
+}
+
+.contato-bg hr {
+  width: 60px;
+  border: 2px solid white;
+  color: white;
+}
+
+.contato-bg p {
+  margin-top: 30px;
+  color: white;
+  font: 14px georgia;
+}
+
+#contato {
+  display: flex;
+  gap: 120px;
+}
+
+#formulario {
+  background: #fff;
+  color: black;
+  text-align: center;
+}
+
+.formulario {
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: "formulario dados"/1fr 1fr;
+}
+
+#formulario h2 {
+  padding: 40px 0 0;
+  color: #fec63e;
+}
+
+#formulario hr {
+  border: 2px solid #fec63e;
+}
+
+.form {
+  margin: 50px 0;
+  text-align: left;
+  grid-area: formulario;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font: 24px georgia;
+}
+
+.form input,
+textarea {
+  border: 4px solid #fec63e;
+  background: none;
+  margin: 5px 0;
+  resize: none;
+}
+
+.form button {
+  margin: 20px 0;
+  width: 150px;
+  height: 50px;
+  color: #fec63e;
+  font: bold 14px arial;
+  text-transform: uppercase;
+  border: 4px solid #fec63e;
+  background: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.form button:hover {
+  color: black;
+  border-color: black;
+}
+
+.dados {
+  grid-area: dados;
+  text-align: left;
+  padding: 30px 70px;
+  box-sizing: border-box;
+}
+
+.dados h1 {
+  margin: 20px 0;
+  font: bold 24px arial;
+  color: #fec63e;
+  text-transform: uppercase;
+}
+
+.dados span {
+  margin-top: 5px;
+  font: 18px georgia;
+  line-height: 20px;
+  display: block;
+}
+
+.dados span:nth-child(4) {
+  margin-top: 50px;
+  font: 18px georgia;
+  line-height: 20px;
+  display: block;
+}
+
+.dados p {
+  margin-bottom: 15px;
+  font: 18px georgia;
+  line-height: 20px;
+  display: block;
+}
+
+.dados li {
+  background: #000;
+  line-height: 30px;
+  font: 18px arial;
+  padding: 5px;
+}
+
+.dados li:nth-child(odd) {
+  background: #191919;
+}
+
+.redes-sociais h1 {
+  color: #fec63e;
+  font: bold 24px arial;
+  text-transform: uppercase;
+}
+
+.redes-sociais hr {
+  margin: 10px 0 15px;
+  width: 60px;
+  border: 2px solid #fec63e;
+}
+
+.redes-sociais img {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border: 2px solid #fec63e;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: all 300ms ease-in-out;
+}
+
+.redes-sociais img:hover {
+  border: 2px solid black;
+}
+
+#map {
+  margin: 60px auto;
+  width: 960px;
+}
