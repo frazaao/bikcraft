@@ -118,6 +118,7 @@ header nav ul a:hover {
 }
 
 .produtos {
+  width: 100%;
   display: flex;
   flex: 1;
 }
@@ -385,8 +386,18 @@ footer .conteudo {
   width: 960px;
 }
 
-@media (max-width: 768px) {
-  * {
-    overflow: hidden;
+@media (min-width: 768px) {
+  footer .conteudo {
+    padding: 0 40px;
+  }
+
+  .produtos {
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  .card img {
+    padding: 20px;
   }
 }

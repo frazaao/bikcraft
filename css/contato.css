@@ -168,3 +168,17 @@ textarea {
   margin: 60px auto;
   width: 960px;
 }
+#map img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .formulario {
+    padding: 40px;
+  }
+
+  #map {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+}

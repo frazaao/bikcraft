@@ -217,6 +217,7 @@
 }
 
 #formulario {
+  margin-top: 50px;
   background: #000;
   color: white;
   text-align: center;
@@ -310,4 +311,11 @@ textarea {
 
 .dados li:nth-child(odd) {
   background: #191919;
+}
+
+@media (min-width: 768px) {
+  .formulario,
+  #produtos {
+    padding: 40px;
+  }
 }
