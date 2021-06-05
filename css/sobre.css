@@ -86,3 +86,9 @@
 .equipe {
   grid-area: equipe;
 }
+
+.equipe img {
+  width: 100%;
+}
+
+
