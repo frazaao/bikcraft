@@ -403,5 +403,6 @@ footer .conteudo {
 
   body {
     width: 103vw;
+    overflow-x: hidden;
   }
 }
