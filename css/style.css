@@ -400,4 +400,8 @@ footer .conteudo {
   .card img {
     padding: 20px;
   }
+
+  body {
+    width: 110vw;
+  }
 }
