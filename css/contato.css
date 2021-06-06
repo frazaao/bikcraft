@@ -172,7 +172,7 @@ textarea {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
   .formulario {
     padding: 40px;
   }
@@ -180,5 +180,28 @@ textarea {
   #map {
     padding: 0 40px;
     box-sizing: border-box;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+  .formulario{
+    width: 90vw;
+    grid-template: 
+    "formulario"
+    "dados";
+  }
+
+  .form{
+    width: 80vw;
+  }
+
+  .dados {
+    padding: 0 70px 30px 0;
+  }
+
+  #map{
+    width: 90vw;
+    margin: 3.5vw;
   }
 }
