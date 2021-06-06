@@ -388,7 +388,7 @@ footer .conteudo {
   width: 960px;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 1080px) {
   footer .conteudo {
     padding: 0 40px;
   }
@@ -499,8 +499,8 @@ footer .conteudo {
   }
 
   #qualidade {
-    width: 85vw; 
-    margin: 0 6.5vw;   
+    width: 85vw;
+    margin: 0 6.5vw;
   }
 
   .qualidade {
@@ -547,5 +547,5 @@ footer .conteudo {
 
   .direitos span {
     width: 100vw;
-  }  
+  }
 }
