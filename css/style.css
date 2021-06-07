@@ -120,10 +120,10 @@ header nav ul a:hover {
 }
 
 .produtos {
-  justify-content: center;
+  justify-content:center;
   width: 100%;
   display: flex;
-  wrap: wrap;
+  flex: 1;
 }
 
 .card {
@@ -448,7 +448,7 @@ footer .conteudo {
   }
 
   .produtos {
-    overflow-x: auto;
+    overflow-x: auto;    
     width: 95vw;
   }
 
