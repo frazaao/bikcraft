@@ -411,7 +411,7 @@ footer .conteudo {
 
 @media (orientation: portrait) {
   body {
-    width: 104vw;
+    width: 100vw;
     overflow-x: hidden;
   }
 
