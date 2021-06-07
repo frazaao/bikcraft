@@ -388,7 +388,7 @@ footer .conteudo {
   width: 960px;
 }
 
-@media (max-aspect-ratio: 4/3) {
+@media (min-width: 480px) and (max-width: 768px) {
   footer .conteudo {
     padding: 0 40px;
   }
@@ -409,7 +409,7 @@ footer .conteudo {
   }
 }
 
-@media (min-width: 0px) and (max-width: 480px) {
+@media (orientation: portrait) {
   body {
     width: 104vw;
     overflow-x: hidden;
