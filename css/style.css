@@ -388,7 +388,7 @@ footer .conteudo {
   width: 960px;
 }
 
-@media (orientation: portrait) {
+@media (min-aspect-ratio: 5/8) {
   footer .conteudo {
     padding: 0 40px;
   }
