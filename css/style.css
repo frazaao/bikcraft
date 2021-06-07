@@ -388,7 +388,7 @@ footer .conteudo {
   width: 960px;
 }
 
-@media (min-aspect-ratio: 5/8) {
+@media (max-aspect-ratio: 4/3) {
   footer .conteudo {
     padding: 0 40px;
   }
