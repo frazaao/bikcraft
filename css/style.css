@@ -508,7 +508,7 @@ footer .conteudo {
   }
 
   .marca {
-    margin: 10px 4vw;
+    margin-bottom: 10px;
     width: 90vw;
     flex-direction: column;
   }
