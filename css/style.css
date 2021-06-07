@@ -120,9 +120,10 @@ header nav ul a:hover {
 }
 
 .produtos {
+  justify-content: center;
   width: 100%;
   display: flex;
-  flex: 1;
+  wrap: wrap;
 }
 
 .card {
@@ -409,7 +410,7 @@ footer .conteudo {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   body {
     width: 100vw;
     overflow-x: hidden;
@@ -423,6 +424,7 @@ footer .conteudo {
   header nav {
     margin-left: 10px;
     display: flex;
+    flex: 1;
   }
 
   header nav ul {
@@ -447,8 +449,7 @@ footer .conteudo {
 
   .produtos {
     overflow-x: auto;
-    margin-right: 30px;
-    width: 95%;
+    width: 95vw;
   }
 
   .callToAction {
