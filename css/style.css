@@ -120,10 +120,9 @@ header nav ul a:hover {
 }
 
 .produtos {
-  justify-content:center;
+  justify-content: center;
   width: 100%;
   display: flex;
-  flex: 1;
 }
 
 .card {
@@ -345,7 +344,7 @@ footer .conteudo {
   border: 2px solid #fec63e;
 }
 
-.contato p {
+.contato ul li {
   font: 18px georgia;
   line-height: 30px;
 }
@@ -427,6 +426,10 @@ footer .conteudo {
     flex: 1;
   }
 
+  header img {
+    width: 15vw;
+  }
+
   header nav ul {
     flex-direction: column;
     margin-left: -10px;
@@ -438,9 +441,23 @@ footer .conteudo {
     display: flex;
     margin: 0 10px;
     color: #000;
-    padding: 5px;
+    padding: 20px;
     transition: all 300ms ease;
     border: 4px solid black;
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .intro-bg h1,
+  .intro-bg hr,
+  .intro-bg p,
+  .intro-bg h3 {
+    transform: scale(1.5);
+  }
+
+  .title {
+    transform: scale(1.5);
+    margin-bottom: 30px;
   }
 
   #produtos {
@@ -448,12 +465,31 @@ footer .conteudo {
   }
 
   .produtos {
-    overflow-x: auto;    
-    width: 95vw;
+    overflow-x: auto;
+    width: 46vw;
+    padding: 50px 0;
+    justify-content: left;
+    scroll-snap-type: x mandatory;
+  }
+
+  .card {
+    transform: scale(1.5);
+    margin: 80px 120px;
+    scroll-snap-align: start;
+  }
+
+  .btn {
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 20px 40px;
   }
 
   .callToAction {
     margin-top: 25px;
+  }
+
+  .callToAction .details {
+    font-size: 18px;
   }
 
   .produtos::-webkit-scrollbar {
@@ -508,6 +544,10 @@ footer .conteudo {
     margin-bottom: 10px;
   }
 
+  .qualidade img {
+    width: 50vw;
+  }
+
   .marca {
     margin-bottom: 10px;
     width: 90vw;
@@ -515,7 +555,18 @@ footer .conteudo {
   }
 
   .marca-card {
+    width: 50vw;
     margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .marca-card h1 {
+    font-size: 32px;
+  }
+
+  .marca-card p {
+    font-size: 24px;
+    padding: 30px;
   }
 
   #quote p {
@@ -548,5 +599,33 @@ footer .conteudo {
 
   .direitos span {
     width: 100vw;
+  }
+
+  #quote * {
+    transform: scale(1.5);
+  }
+  #quote p {
+    width: 50vw;
+  }
+
+  .historia h1,
+  .contato h1,
+  .redes h1 {
+    font-size: 32px;
+  }
+
+  .historia p,
+  .contato ul li {
+    font-size: 24px;
+  }
+
+  .redes img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+
+  .direitos span {
+    font-size: 18px;
   }
 }
