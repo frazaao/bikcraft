@@ -47,11 +47,16 @@
 }
 
 #formulario h2 {
+  font: bold 24px arial;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
   padding: 40px 0 0;
   color: #fec63e;
 }
 
 #formulario hr {
+  width: 60px;
   border: 2px solid #fec63e;
 }
 
@@ -184,15 +189,14 @@ textarea {
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
-
-  .formulario{
+  .formulario {
     width: 90vw;
-    grid-template: 
-    "formulario"
-    "dados";
+    grid-template:
+      "formulario"
+      "dados";
   }
 
-  .form{
+  .form {
     width: 80vw;
   }
 
@@ -200,7 +204,7 @@ textarea {
     padding: 0 70px 30px 0;
   }
 
-  #map{
+  #map {
     width: 90vw;
     margin: 3.5vw;
   }

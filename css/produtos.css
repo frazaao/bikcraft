@@ -231,11 +231,16 @@
 }
 
 #formulario h2 {
+  font: bold 24px arial;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
   padding: 40px 0 0;
   color: #fec63e;
 }
 
 #formulario hr {
+  width: 60px;
   border: 2px solid #fec63e;
 }
 
@@ -363,14 +368,14 @@ textarea {
     margin: 0 -4vw;
   }
 
-  .formulario{
+  .formulario {
     width: 90vw;
-    grid-template: 
-    "formulario"
-    "dados";
+    grid-template:
+      "formulario"
+      "dados";
   }
 
-  .form{
+  .form {
     width: 80vw;
   }
 
