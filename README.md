@@ -26,7 +26,7 @@ O projeto foi desenvolvido usando as tenologias:
 <a href="https://bikcraft-frazaao.vercel.app/">Bikcraft</a>
 </h3>
 
-Bikcraft é um projeto de
+Bikcraft é um projeto para treinamento com o intuito de melhorar as habilidade de desenvolvimento web
 
 O projeto foi desenvolvido durante o curso de Web Developer da Origamid em Junho de 2021.
 
