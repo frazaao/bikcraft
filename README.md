@@ -18,9 +18,9 @@ O projeto foi desenvolvido usando as tenologias:
 
 ## 🚲 Bikcraft
 
-<img src="./img/bikcraft-desktop">
+<img src="./img/bikcraft-desktop.jpg">
 
-<img src="./img/bikcraft-mobile">
+<img src="./img/bikcraft-mobile.jpg">
 
 <h3 align="center">
 <a href="https://bikcraft-frazaao.vercel.app/">Bikcraft</a>
