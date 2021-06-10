@@ -20,7 +20,7 @@ O projeto foi desenvolvido usando as tenologias:
 
 <img src="./img/bikcraft-desktop.jpg">
 
-<img src="./img/bikcraft-mobile.jpg">
+<img src="./img/bikcraft-mobile.jpg" align="center">
 
 <h3 align="center">
 <a href="https://bikcraft-frazaao.vercel.app/">Bikcraft</a>
