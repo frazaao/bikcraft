@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./img/bikcraft.svg" alt="Logo">
+    <img src="./img/bikcraft-qualidade.svg" alt="Logo">
 </h1>
 <h2 align="center">Bikcraft</h2>
 <h1 align="center">
