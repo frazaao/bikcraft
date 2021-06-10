@@ -35,6 +35,8 @@ O projeto foi desenvolvido durante o curso de Web Developer da Origamid em Junho
 Durante o curso foi proposto desenvolver o projeto utilizando medidas fixas, como eu ja tinha alguma experiencia em FlexBox,
 utilizei para desenvolver todo o projeto e em alguns casos utilizei o Grid Layout, esse foi meu primeiro projeto utilizando
 JavaScript por conta própria sem nenhuma mentoria, utilizei a tecnologia para criar o menu hamburguer na versão mobile.
+Também foi feito algumas alterações no visual do projeto de uma forma que me agradou mais, não foi muita coisa, mas deu uma
+boa diferença em relação ao original!
 
 ## 🔖 Layout
 
