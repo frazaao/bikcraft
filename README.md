@@ -20,10 +20,10 @@ O projeto foi desenvolvido usando as tenologias:
 
 <img src="./img/bikcraft-desktop.jpg">
 
-<img src="./img/bikcraft-mobile.jpg" align="center">
+<img src="./img/bikcraft-mobile.jpg">
 
 <h3 align="center">
-<a href="https://bikcraft-frazaao.vercel.app/">Bikcraft</a>
+<a href="https://bikcraft-frazaao.vercel.app/">Acesse o site</a>
 </h3>
 
 Bikcraft é um projeto para treinamento com o intuito de melhorar as habilidade de desenvolvimento web
