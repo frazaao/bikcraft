@@ -441,6 +441,12 @@ footer .conteudo {
     height: 100px;
     background: none;
     border: none;
+    transition: transform 200ms ease;
+  }
+
+  .nav-active{
+    transition: transform 200ms ease;
+    transform: rotate(90deg);
   }
 
   #nav img {

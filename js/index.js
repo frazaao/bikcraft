@@ -13,6 +13,7 @@ function clickMenu() {
     navigation.classList.toggle("navigator")
     navigation.classList.toggle("disabled")
 
+    nav.classList.toggle("nav-active")
     
 
     // menu.forEach(toggleView)
